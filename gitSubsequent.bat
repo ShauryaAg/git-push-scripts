@@ -9,4 +9,4 @@ if "%2"=="" (set msg="Files Committed") else (set msg=%2)
 git commit -m %msg%
 git pull origin master
 git push -u origin master
-rem start %url%
+start %url%
